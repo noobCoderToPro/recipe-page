@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'outfit';
+    src: url('../fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'young-serif';
+    src: url('../fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+body{
+    margin: 0;
+    padding: 5rem 20rem;
+    font-family: 'outfit';
+    background-color: antiquewhite;
+}
+
+.container{
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1.5rem;
+}
+
+.image-container{
+    width: 100%;
+}
+
+.image-container img{
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.content{
+    margin: 1rem 0;
+}
+
+.content .heading{
+    font-family: 'young-serif';
+    font-weight: normal;
+}
+
+.container .sub-heading{
+    font-weight : 300;
+    font-size: 0.9rem;
+    
+}
+
+.preparation-time{
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: antiquewhite;
+    border-radius: 0.7rem;
+}
+
+.preparation-time .heading {
+    font-family : 'outfit';
+    margin-top: 0;
+}
+
+.preparation-time .items li{
+    margin: 0.8rem 0;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.ingredients .items li{
+    margin: 0.8rem 0;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.rule{
+    background-color: rgb(208, 208, 208);
+    box-shadow: none;
+    border: none;
+    height: 0.01rem;
+    margin: 2rem 0;
+}
+
